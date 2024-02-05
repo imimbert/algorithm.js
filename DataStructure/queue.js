@@ -50,6 +50,9 @@ class queue {
         return this.arr.length;
     }
 }
+
+module.exports = queue;
+
 var queue_t = new queue([1,2,3])
 var queue_t2 = new queue([1,2,4])
 queue_t.push(1);

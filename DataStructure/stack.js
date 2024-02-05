@@ -50,6 +50,8 @@ class stack {
         return this.arr.length;
     }
 }
+module.exports = stack;
+
 var stack_t = new stack([1,2,3])
 var stack_t2 = new stack([1,2,4])
 stack_t.push(1);
