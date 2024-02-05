@@ -1,0 +1,19 @@
+{
+  "name": "algorm",
+  "version": "1.0.0",
+  "description": "A javascript algorithm package.",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imimbert/algorithm.js.git"
+  },
+  "author": "yangroy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imimbert/algorithm.js/issues"
+  },
+  "homepage": "https://github.com/imimbert/algorithm.js#readme"
+}
