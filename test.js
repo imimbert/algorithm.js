@@ -1,2 +1,4 @@
 const algorm=require("./index")
-console.log(new algorm.graph(1))
+var arr=[3,4,1,114,115,43,64,36,4,1]
+algorm.sort.quickSort(arr);
+console.log(arr);
