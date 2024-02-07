@@ -26,5 +26,8 @@ function kmp(strs1, strs2) {
     }
     return -1;
 }
+
+module.exports=kmp;
 console.log(kmp("ABABCABAA", "AA"));
+
 

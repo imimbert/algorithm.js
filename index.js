@@ -6,5 +6,11 @@ algorm.hash = require("./DataStructure/hash")
 algorm.tree = require("./DataStructure/tree")
 
 algorm.sort = require("./algorithm/sort")
+algorm.huffman = require("./algorithm/string/huffman")
+algorm.kmp = require("./algorithm/string/kmp")
+algorm.lcs = require("./algorithm/string/lcs")
+algorm.lcss = require("./algorithm/string/lcss")
+algorm.rabinkarp = require("./algorithm/string/rabinkarp")
+algorm.lsd = require("./algorithm/string/lsd")
 
 module.exports=algorm;
