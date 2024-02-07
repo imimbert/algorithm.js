@@ -1,0 +1,47 @@
+Date : 2024-02-07 11:34:39
+Directory : c:\Users\YOGA\Desktop\algorithm.js
+Total : 16 files,  1621 codes, 237 comments, 377 blanks, all 2235 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |         14 |      1,602 |        237 |        375 |      2,214 |
+| JSON       |          1 |         19 |          0 |          1 |         20 |
+| Markdown   |          1 |          0 |          0 |          1 |          1 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                             | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                |         16 |      1,621 |        237 |        377 |      2,235 |
+| . (Files)                                                        |          4 |         37 |          0 |          5 |         42 |
+| DataStructure                                                    |          5 |      1,256 |        215 |        337 |      1,808 |
+| algorithm                                                        |          7 |        328 |         22 |         35 |        385 |
+| algorithm (Files)                                                |          1 |         55 |          7 |          9 |         71 |
+| algorithm\string                                                 |          6 |        273 |         15 |         26 |        314 |
++------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                         | language   | code       | comment    | blank      | total      |
++------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\YOGA\Desktop\algorithm.js\DataStructure\graph.js        | JavaScript |        588 |        149 |        176 |        913 |
+| c:\Users\YOGA\Desktop\algorithm.js\DataStructure\hash.js         | JavaScript |        150 |         11 |         25 |        186 |
+| c:\Users\YOGA\Desktop\algorithm.js\DataStructure\queue.js        | JavaScript |         57 |          0 |         12 |         69 |
+| c:\Users\YOGA\Desktop\algorithm.js\DataStructure\stack.js        | JavaScript |         58 |          0 |         13 |         71 |
+| c:\Users\YOGA\Desktop\algorithm.js\DataStructure\tree.js         | JavaScript |        403 |         55 |        111 |        569 |
+| c:\Users\YOGA\Desktop\algorithm.js\README.md                     | Markdown   |          0 |          0 |          1 |          1 |
+| c:\Users\YOGA\Desktop\algorithm.js\algorithm\sort.js             | JavaScript |         55 |          7 |          9 |         71 |
+| c:\Users\YOGA\Desktop\algorithm.js\algorithm\string\huffman.js   | JavaScript |        124 |          7 |          6 |        137 |
+| c:\Users\YOGA\Desktop\algorithm.js\algorithm\string\kmp.js       | JavaScript |         30 |          0 |          4 |         34 |
+| c:\Users\YOGA\Desktop\algorithm.js\algorithm\string\lcs.js       | JavaScript |         28 |          7 |          3 |         38 |
+| c:\Users\YOGA\Desktop\algorithm.js\algorithm\string\lcss.js      | JavaScript |         29 |          1 |          1 |         31 |
+| c:\Users\YOGA\Desktop\algorithm.js\algorithm\string\lsd.js       | JavaScript |         21 |          0 |          2 |         23 |
+| c:\Users\YOGA\Desktop\algorithm.js\algorithm\string\rabinkarp.js | JavaScript |         41 |          0 |         10 |         51 |
+| c:\Users\YOGA\Desktop\algorithm.js\index.js                      | JavaScript |         14 |          0 |          3 |         17 |
+| c:\Users\YOGA\Desktop\algorithm.js\package.json                  | JSON       |         19 |          0 |          1 |         20 |
+| c:\Users\YOGA\Desktop\algorithm.js\test.js                       | JavaScript |          4 |          0 |          0 |          4 |
+| Total                                                            |            |      1,621 |        237 |        377 |      2,235 |
++------------------------------------------------------------------+------------+------------+------------+------------+------------+
