@@ -2,7 +2,7 @@
   "name": "algorm",
   "version": "1.0.0",
   "description": "A javascript algorithm package.",
-  "main": "index.js",
+  "main": "algorm.js",
   "scripts": {
     "test": "node test.js" 
   },

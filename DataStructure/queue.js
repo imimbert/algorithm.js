@@ -52,18 +52,3 @@ class queue {
 }
 
 module.exports = queue;
-
-var queue_t = new queue([1,2,3])
-var queue_t2 = new queue([1,2,4])
-queue_t.push(1);
-console.log(queue_t)
-console.log(queue_t.front())
-console.log(queue_t.back())
-
-queue_t.pop()
-console.log(queue_t)
-
-console.log(queue_t,queue_t.size,queue_t.empty())
-
-queue_t.swap(queue_t2);
-console.log(queue_t,queue_t2)

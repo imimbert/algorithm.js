@@ -51,21 +51,3 @@ class stack {
     }
 }
 module.exports = stack;
-
-var stack_t = new stack([1,2,3])
-var stack_t2 = new stack([1,2,4])
-stack_t.push(1);
-console.log(stack_t)
-console.log(stack_t.top())
-
-stack_t.emplace(4);
-console.log(stack_t)
-
-stack_t.pop()
-console.log(stack_t)
-
-stack_t.clear()
-console.log(stack_t,stack_t.size,stack_t.empty())
-
-stack_t.swap(stack_t2);
-console.log(stack_t,stack_t2)
