@@ -5,22 +5,15 @@ class LinkedList {
     // 初始 head 为 null，head 指向链表的第一个节点
     head = null;
 
-    // 内部类（链表里的节点 Node）
-    Node = class {
-        data;
-        next = null;
+    constructor(){};
 
-        constructor(data) {
-            this.data = data;
-        }
-    };
 
     // ------------ 链表的常见操作 ------------ //
 
     // append() 往链表尾部追加数据
     append(data) {
         // 1、创建新节点
-        const newNode = new this.Node(data);
+        const newNode = new LinkedList.Node(data);
 
         // 2、追加新节点
         if (this.length === 0) {
@@ -54,7 +47,7 @@ class LinkedList {
         if (position < 0 || position > this.length) return false;
 
         // 2、创建新节点
-        const newNode = new this.Node(data);
+        const newNode = new LinkedList.Node(data);
 
         // 3、插入节点
         if (position === 0) {
@@ -203,4 +196,12 @@ class LinkedList {
     }
 }
 
+LinkedList.Node = class {
+    data;
+    next = null;
+
+    constructor(data) {
+        this.data = data;
+    }
+};
 module.exports=LinkedList;

@@ -1,4 +1,12 @@
-const LinkedList=require("./linkedlist")
+const LinkedList = require("./linkedlist")
+const Node = require("./linkedlist").Node;
+
+class DoublyNode extends Node {
+    constructor(element) {
+        super(element);
+        this.prev = null;
+    }
+}
 class DoublyLinkedList extends LinkedList {
     constructor() {
         super();
@@ -190,4 +198,4 @@ class DoublyLinkedList extends LinkedList {
     }
 }
 
-module.exports=DoublyLinkedList;
+module.exports = DoublyLinkedList;

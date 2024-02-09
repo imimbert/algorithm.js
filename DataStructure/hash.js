@@ -1,4 +1,4 @@
-class HashTable {
+class hash {
     constructor(arrLen) {
         this.arrLen = arrLen;
         this.table = new Array(arrLen);
@@ -147,39 +147,8 @@ class HashTable {
 
 }
 
-module.exports = HashTable;
+module.exports = hash;
 
 // const HashTable = require('./hash');
 
-let hTable = new HashTable(137);
 
-let someWords = ["detect", "investigate", "scold", "difficulty",
-    "complication", "complexity", "intricacy", "detail", "contents"];
-
-let definition = [`discover or identify the presence or existence of.`,
-    `carry out a systematic or formal inquiry to discover and examine the 
-    facts of (an incident, allegation, etc.) so as to establish the truth.`,
-    `remonstrate with or rebuke (someone) angrily.`,
-    `the state or condition of being difficult.`,
-    `a circumstance that complicates something; a difficulty.`,
-    `the state or quality of being intricate or complicated.`,
-    `the quality of being intricate.`,
-    `an individual feature, fact, or item.`,
-    `a state of satisfaction.`];
-
-// 线性探查法
-for (let i = 0; i < someWords.length; ++i) {
-    hTable.putWithDete(definition[i], someWords[i]);
-}
-
-console.log(hTable.getWithDete('detect'));
-
-// 开链法
-let chains = new HashTable(137);
-chains.buildChains();
-
-for(let i=0; i<someWords.length; i++){
-    chains.putWithChains(definition[i], someWords[i]);
-}
-
-console.log(chains.getWithChains('investigate'));

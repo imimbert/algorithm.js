@@ -902,7 +902,10 @@ myGraph.addEdge('C', 'E', 2);
 myGraph.addEdge('D', 'E', 7);
 myGraph.addEdge('E', 'D', 9);
 
-myGraph.getShortestPath('B');
+console.log(myGraph.getShortestPath('B'));
+console.log(myGraph)
+
+console.log(myGraph.allNeightbors('A'))
 
 
 

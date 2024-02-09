@@ -11,7 +11,7 @@ class Node{
     }
 }
 
-class BTTree {
+class tree {
     constructor() {
         this.root = null;
     }
@@ -547,22 +547,6 @@ class BTTree {
     }
 }
 
-
-let preOrder = [20, 13, 7, 9, 15, 14, 42, 22, 21, 24, 57];
-let inOrder = [7, 9, 13, 14, 15, 20, 21, 22, 24, 42, 57];
-let inLstIdx = inOrder.length - 1;
-let preLstIdx = preOrder.length - 1;
-
-let myTree = new BTTree();
-
-myTree.preInCreate(preOrder, inOrder, 0, preLstIdx, 0, inLstIdx);
-
-console.log(myTree.inOrderNonRec());
-console.log(myTree.preOrderNonRec());
-console.log(myTree.postOrderNonRec());
-myTree.remove(20)
-console.log(myTree.postOrderNonRec());
-
-module.exports = BTTree;
+module.exports = tree;
 
 
