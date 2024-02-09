@@ -1,4 +1,4 @@
-function Huffman(str) {
+function huffman(str) {
     // 需要编码的字符串
     this.str = str;
     // 键和频率映射表
@@ -14,7 +14,7 @@ function Huffman(str) {
     // 哈夫曼编码后的01序列
     this.code = null;
 }
-Huffman.prototype.cal =  function cal() {
+huffman.prototype.cal =  function cal() {
     str = this.str;
     var map = {};
     var i = 0;
@@ -25,7 +25,7 @@ Huffman.prototype.cal =  function cal() {
     this.keyCountMap = map;
 }
 
-Huffman.prototype.sort = function sort() {
+huffman.prototype.sort = function sort() {
     map = this.keyCountMap;
     var result = [];
     for (key in map) {
@@ -44,7 +44,7 @@ function Node(left, right, data) {
     this.right = right;
     this.data = data;
 }
-Huffman.prototype.makeTree = function makeTree() {
+huffman.prototype.makeTree = function makeTree() {
     var i = 0;
     var len = this.nodeList.length;
     var node1;
@@ -61,7 +61,7 @@ Huffman.prototype.makeTree = function makeTree() {
     return this.root;
 }
 
-Huffman.prototype.traversal = function traversal(tree, code) {
+huffman.prototype.traversal = function traversal(tree, code) {
     if (tree.left !== null) {
         traversal.call(this,tree.left, code + '0');
     } else {
@@ -75,7 +75,7 @@ Huffman.prototype.traversal = function traversal(tree, code) {
 
 }
 
-Huffman.prototype.encode = function encode() {
+huffman.prototype.encode = function encode() {
     this.cal();
     this.sort();
     var root = this.makeTree();
@@ -91,7 +91,7 @@ Huffman.prototype.encode = function encode() {
     console.log('encode:' + result);
     return result
 }
-Huffman.prototype.reverseMap = function reverseMap() {
+huffman.prototype.reverseMap = function reverseMap() {
     var ret = this.keyCodeMap;
     var result = {};
     for (key in ret) {
@@ -102,7 +102,7 @@ Huffman.prototype.reverseMap = function reverseMap() {
     this.codeKeyMap = result;
     return result;
 }
-Huffman.prototype.decode = function decode() {
+huffman.prototype.decode = function decode() {
     var i = 0;
     var result = '';
     var data = '';  
@@ -119,7 +119,7 @@ Huffman.prototype.decode = function decode() {
     }
     console.log("decode:" + data)
 }
-Huffman.prototype.encodeBase64 = function() {
+huffman.prototype.encodeBase64 = function() {
     try {
         var base64 = btoa(this.code);
         return base64;
@@ -127,11 +127,4 @@ Huffman.prototype.encodeBase64 = function() {
         return '';
     }
 }
-
-var str = 'ew qew qd ef 24 gf ewr getElementsByTagName';
-var huffman = new Huffman(str)
-huffman.encode(str)
-huffman.decode();
-huffman.encodeBase64();
-
-module.exports=Huffman;
+module.exports=huffman;

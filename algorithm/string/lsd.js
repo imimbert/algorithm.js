@@ -18,6 +18,4 @@ const lsd = (s, t) => {
     return arr[t.length][s.length]
 }
 
-console.log(lsd('xinglan', 'mdr')) // 7
-
 module.exports=lsd;

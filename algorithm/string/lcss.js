@@ -26,6 +26,4 @@ var lcss = function (text1, text2) {
     // console.log(Subsequence(text1, dp).split('').reverse().join(''))
     return [dp[m][n],Subsequence(text1, dp).split('').reverse().join('')]
 };
-
-console.log(lcss("mdrgra","mdra"));
 module.exports=lcss;

@@ -1,6 +1,6 @@
 const prime = 101; // 选取一个质数作为进制
 
-function RabinKarpSearch(text, pattern) {
+function rabinkarp(text, pattern) {
     const n = text.length;
     const m = pattern.length;
 
@@ -44,8 +44,4 @@ function checkEqual(str1, start1, str2, start2, len) {
     return true;
 }
 
-const text = "Hello, world!";
-const pattern = "world";
-console.log(RabinKarpSearch(text, pattern)); // 输出：7
-
-module.exports = RabinKarpSearch;
+module.exports = rabinkarp;

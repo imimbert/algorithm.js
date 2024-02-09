@@ -1,6 +1,6 @@
 {
   "name": "algorm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A javascript algorithm package.",
   "main": "algorm.js",
   "scripts": {

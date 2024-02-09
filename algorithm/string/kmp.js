@@ -28,6 +28,6 @@ function kmp(strs1, strs2) {
 }
 
 module.exports=kmp;
-console.log(kmp("ABABCABAA", "AA"));
+
 
 

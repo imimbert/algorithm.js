@@ -209,4 +209,43 @@ console.log(myTree.getTreeDepth())
 console.log(myTree.getLeafNodeNumber())
 console.log(myTree.getEdgeNumber())
 console.log(myTree.getNodeNumber())
-console.log(myTree.find(7))
+console.log(myTree.find(7),"\n\n")
+
+
+
+
+
+// algorithm
+//huffman
+var str = 'ew qew qd ef 24 gf ewr getElementsByTagName';
+var huffman = new algorm.huffman(str)
+huffman.encode(str)
+huffman.decode();
+huffman.encodeBase64();
+
+//kmp
+console.log(algorm.kmp("ABABCABAA", "AA"));
+
+//lcs
+console.log(algorm.lcs("mdrrrrr","idr"));
+
+//lcss
+console.log(algorm.lcss("mdrgra","mdra"));
+
+//lsd
+console.log(algorm.lsd('xinglan', 'mdr'))
+
+//rabinkarp
+const text = "Hello, world!";
+const pattern = "world";
+console.log(algorm.rabinkarp(text, pattern));
+
+//sort
+var arr=[3,4,1,0,-9,2,3,5,6,7,5,4,3,2,5,6,7,9,0,8,11,3545,6,7,67,8,87,5,1,2,3,546,45,43,2,45,7,889,0,86,7,6];
+var arr1=[3,4,1,0,-9,2,3,5,6,7,5,4,3,2,5,6,7,9,0,8,11,3545,6,7,67,8,87,5,1,2,3,546,45,43,2,45,7,889,0,86,7,6];
+algorm.sort.shellSort(arr,1);
+console.log(arr);
+
+algorm.sort.quickSort(arr1);
+console.log(arr1)
+

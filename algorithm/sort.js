@@ -53,18 +53,4 @@ function quickSort(arr, start=0, end=arr.length-1,way=0) {
     quickSort(arr, index + 1, end);
 }
 
-var arr=[3,4,1,0,-9,2,3,5,6,7,5,4,3,2,5,6,7,9,0,8,11,3545,6,7,67,8,87,5,1,2,3,546,45,43,2,45,7,889,0,86,7,6];
-var arr1=[3,4,1,0,-9,2,3,5,6,7,5,4,3,2,5,6,7,9,0,8,11,3545,6,7,67,8,87,5,1,2,3,546,45,43,2,45,7,889,0,86,7,6];
-var start = process.hrtime.bigint()
-shellSort(arr,1);
-var end = process.hrtime.bigint()
-console.log('shell sort costs', `${end - start}ns`)
-console.log(arr);
-
-var start = process.hrtime.bigint()
-quickSort(arr1);
-var end = process.hrtime.bigint()
-console.log('quick sort costs',`${end - start}ns`)
-console.log(arr1)
-
 module.exports=sort;

@@ -33,5 +33,4 @@ function lcs( str1 ,  str2 ) {
     
 }
 
-console.log(lcs("mdrrrrr","idr"));
 module.exports = lcs;
